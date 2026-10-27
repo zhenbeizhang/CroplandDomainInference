@@ -18,7 +18,7 @@ The full validation experiment fits 900 small models: 45 splits × 4 specificati
 
 ## Companion data
 
-The scripts use the companion analysis-data release cited in the associated article. Keep that release outside the Git repository and pass its root directory with `--data-root` or `--release-root`. The expected structure begins with:
+The scripts use the companion analysis-data release archived in Zenodo at <https://doi.org/10.5281/zenodo.23681024>. Keep that release outside the Git repository and pass its root directory with `--data-root` or `--release-root`. The expected structure begins with:
 
 ```text
 companion-data-release/
@@ -77,7 +77,7 @@ The scripts read released inputs but do not alter them.
 
 ## Reproducibility scope
 
-The public workflows begin from analysis-ready probability-sample records and model-ready predictor arrays. They reproduce the reported design-based estimates, uncertainty intervals, selected-model predictions, and cross-validation probabilities. Raw GF-2 and dated very-high-resolution imagery are governed by provider terms and are not part of the code or data release. The OasisCrop 1 m cultivated-land input used to derive morphology predictors is available separately at <https://doi.org/10.5281/zenodo.21252320>.
+The public workflows begin from analysis-ready probability-sample records and model-ready predictor arrays. They reproduce the reported design-based estimates, uncertainty intervals, selected-model predictions, and cross-validation probabilities. The companion analysis data are archived at <https://doi.org/10.5281/zenodo.23681024>. Raw GF-2 and dated very-high-resolution imagery are governed by provider terms and are not part of the code or data release. The OasisCrop 1 m cultivated-land input used to derive morphology predictors is available separately at <https://doi.org/10.5281/zenodo.21252320>.
 
 Method-to-output traceability is summarized in [`docs/reproducibility.md`](docs/reproducibility.md).
 

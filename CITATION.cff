@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the associated article and the archived software release."
 title: "Historical cropland domain inference: analysis and model-validation code"
 type: software
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-10-27
 authors:
   - family-names: Zhang
